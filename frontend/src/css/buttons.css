@@ -1,0 +1,32 @@
+
+
+.buttons-row button {
+  border: solid 1px ;
+  background-color: #ffc62a;
+  color: black;
+  border-color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.buttons-row button.active {
+  background-color: black;
+  color: #ffc62a;
+  border-color: #ffc62a;
+
+}
+
+.buttons-row button:hover {
+  background-color: black;
+  color: #ffc62a;
+  border-color: #ffc62a;
+}
+
+.chart-container {
+  margin-bottom: 20px;
+}
+
+.table-container {
+  margin-bottom: 20px;
+}
+

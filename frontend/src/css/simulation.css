@@ -1,0 +1,24 @@
+.disabled-card {
+    background-color: rgb(234, 234, 234);
+    color: rgb(158, 158, 158);
+  }
+
+.disabled-card .card-img-top {
+    filter: grayscale(100%);
+  }
+  
+   button {
+    background-color: black;
+    color: #ffc62a;
+    border-color: #ffc62a;
+    margin: 8px;
+  }
+ button:hover {
+    background-color: #ffc62a;
+    color: black;
+    border-color: black;
+  }
+ button.active {
+    background-color: black;
+    color: #ffc62a;
+  }
